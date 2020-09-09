@@ -15,6 +15,10 @@ body {
   color: #fff;
 }
 
+.no-pad {
+  padding: 0;
+}
+
 @media (max-width: 992px) {
   .heading-section__wrapper {
     padding: 15px 0;
@@ -106,12 +110,29 @@ h4 {
 p {
   font-size: 1.35rem;
   line-height: 2;
+  font-weight: 400;
   margin: 20px 0;
+}
+
+@media (max-width: 992px) {
+  p {
+    font-size: 18px;
+    line-height: 1.8;
+  }
 }
 
 blockquote {
   border-left: 10px solid #204B57;
+  background-color: #E8E9F3;
   padding: 20px;
+  font-size: 1.35rem;
+}
+
+@media (max-width: 992px) {
+  blockquote {
+    font-size: 18px;
+    line-height: 1.8;
+  }
 }
 
 a {
@@ -127,8 +148,8 @@ a:hover {
 }
 
 a:focus {
-  background-color: #f4f4f4;
-  outline: 1px solid #f4f4f4;
+  background-color: #204B57;
+  color: #fff;
 }
 
 .image-holder {
@@ -158,6 +179,16 @@ a:focus {
   .image-holder {
     margin: 45px 0px;
   }
+}
+
+figure {
+  margin: 20px 0;
+}
+
+figure figcaption {
+  font-size: 16px;
+  color: #272635;
+  background-color: #f4f4f4;
 }
 
 .heading-section__wrapper {
