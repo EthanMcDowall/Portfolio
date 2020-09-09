@@ -189,6 +189,7 @@ figure figcaption {
   font-size: 16px;
   color: #272635;
   background-color: #f4f4f4;
+  padding: 15px;
 }
 
 .heading-section__wrapper {
@@ -363,3 +364,4 @@ code {
   font-family: inherit;
   color: inherit;
 }
+/*# sourceMappingURL=main.css.map */
