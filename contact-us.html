@@ -58,16 +58,26 @@
         <h3>Interaction designer</h3>
         <p>I was responsible for creating initial concepts, making low fidelity wireframes and prototypes through to high fidelity prototypes, iterating them based on research and feedback.</p>
         <h3>Developer</h3>
-        <p>Once the project moved into a development phase, I became the main developer building the prototypes from a website point of view. Another colleague tackled development of the form for users to complete through our forms package. I used HTML, SASS and Javascript to create the section. </p>
-        <h2>The problem</h2>
+        <p>Once the project moved into a development phase, I became the main developer building the prototypes from a website point of view. There was another developer who focused on the form and backend integrations. Another colleague tackled development of the form for users to complete through our forms package. I used HTML, SASS and Javascript to create the section.</p>
         <p>A lot of the Customer Services team management teams time was taken up by the current process. Once the form had emailed the email inbox, they manually indexed that email into our document management system - this took anywhere from 30 minutes to an hour depending on the day of the week. They would then allocate those emails to the customer services team to deal with. This would usually mean that a user submitting the form would have to wait a minimum of two days for a response due to the level of manual tasks involved.</p>
         <p>On top of the time taken just to get to this point it was also clear from user research that they were getting more transactional requests for reporting missed bins or reporting fly tipping rather than users who need to contact us about their benefits claim or council tax bill for example. Just over 50% of the contact us forms completed were for transactional requests.</p>
+        <h2>The problem</h2>
+        <h3>Admin time</h3>
+        <p>A lot of the Customer Services team management teams time was taken up by the current process. Once the form had emailed the email inbox, they manually indexed that email into our document management system - this took anywhere from 30 minutes to an hour per day depending on the day of the week. They would then allocate those emails to the customer services team to deal with. This would usually mean that a user submitting the form would have to wait a minimum of two days for a response due to the level of manual tasks involved.</p>
+        <h3>Transaction requests</h3>
+        <p>On top of the time taken just to get to the customer services team, it was clear from user research that they were getting a lot of transactional requests for reporting missed bins or reporting fly tipping rather than users who need to contact us about their benefits claim or council tax bill for example. Just over 50% of the contact us forms completed were for transactional requests.</p>
+        <h3>Website content</h3>
+        <p>There was no content on the website advising a user how to contact us and our departments across the website. There was a page set up, however, it redirected straight into a form for a user to complete. That form asked them what service they wanted to contact from a drop down list. Once selected, a series of buttons appeared in an attempt to redirect a user to another form or web page. The next page gave the user phone numbers, opening times and a small amount of content about that department - there were no calls to actions other than to proceed to the next page. The next page asked them what they wanted to contact us about before finally giving us their contact details.</p>
         <h2>My solutions</h2>
-        <h3>Process maps</h3>
+        <p>I worked with the team to create a concept that would tackle these issues. I made a high level process map to outline how the front end of the process would work and look like.</p>
         <figure>
             <img src="Contact us process map.png" alt="">
             <figcaption>Mobile prototype for contact us page.</figcaption>
         </figure>  
+        <h3>Admin time</h3>
+        <p>I wanted to avoid a user having to tell us what department they’re trying to contact within the form when they’ve already selected a department from the web page. I found a way to pass a value from a URL from the new webpage into the new form which populated a hidden field in the background of the form. The other developer in the team used this value and integrated the form submission into the document management system which removed the admin time from the customer services management team.</p>
+        <h3>Transaction requests and website content</h3>
+        <p>One of the main issues to tackle in this project was reducing the amount of transactional requests coming through. I prototyped a concept that would route users to parts of the site to complete a transaction - reporting a missed bin for example - only leaving an option to contact us if there was no transaction request. I came with a design where users would select a department from a menu. A second menu of items relating to the department would appear next to it (on desktop). Once a second menu item was selected, content would appear that would either give them some information, direct them to a transaction or direct them through the contact form. This approach also added content to help inform the user on what they needed to do.</p>
         <figure>
             <img src="Contact us mobile view.png" alt="">
             <figcaption>Mobile prototype for contact us page.</figcaption>
@@ -76,6 +86,7 @@
             <img src="Contact us desktop.png" alt="">
             <figcaption>Desktop prototype for contact us page.</figcaption>
         </figure>
+        <p>The above is the concept I came up with. This project is in live beta and can be found <a href="here
         <h2>What happens next</h3>
       </div>
     </section>
