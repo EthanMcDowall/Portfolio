@@ -148,8 +148,8 @@ a:hover {
 }
 
 a:focus {
-  background-color: #204B57;
-  color: #fff;
+  outline: 5px solid #125E8A;
+  outline-offset: 0;
 }
 
 .image-holder {
@@ -183,6 +183,11 @@ a:focus {
 
 figure {
   margin: 20px 0;
+}
+
+figure img {
+  width: 100%;
+  height: auto;
 }
 
 figure figcaption {
@@ -362,6 +367,38 @@ table.colours tr .colour-section--dark-green {
 code {
   font-size: inherit;
   font-family: inherit;
+  color: inherit;
+}
+
+#pagination {
+  margin: 50px 0;
+}
+
+#pagination .pagination--left {
+  width: 49%;
+  margin-right: 5px;
+}
+
+#pagination .pagination--right {
+  width: 49%;
+  margin-left: 5px;
+}
+
+#pagination .pagination--link {
+  display: block;
+  text-decoration: underline;
+  background-color: #f4f4f4;
+  padding: 20px 5px;
+}
+
+#pagination .pagination--link:hover {
+  text-decoration: none;
+  background-color: #E8E9F3;
+}
+
+#pagination .pagination--link:focus {
+  outline: 5px solid #197BBD;
+  outline-offset: 0;
   color: inherit;
 }
 /*# sourceMappingURL=main.css.map */
