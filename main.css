@@ -186,7 +186,7 @@ figure {
 }
 
 figure img {
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -401,3 +401,4 @@ code {
   outline-offset: 0;
   color: inherit;
 }
+/*# sourceMappingURL=main.css.map */
