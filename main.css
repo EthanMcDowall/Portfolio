@@ -379,26 +379,58 @@ code {
   margin-right: 5px;
 }
 
-#pagination .pagination--right {
-  width: 49%;
-  margin-left: 5px;
-}
-
-#pagination .pagination--link {
+#pagination .pagination--left .pagination--link-left {
   display: block;
   text-decoration: underline;
   background-color: #f4f4f4;
   padding: 20px 5px;
+  text-align: left;
 }
 
-#pagination .pagination--link:hover {
+#pagination .pagination--left .pagination--link-left:before {
+  content: "\f060";
+  font-family: FontAwesome;
+  margin-right: 10px;
+}
+
+#pagination .pagination--left .pagination--link-left:hover {
   text-decoration: none;
   background-color: #E8E9F3;
 }
 
-#pagination .pagination--link:focus {
+#pagination .pagination--left .pagination--link-left:focus {
   outline: 5px solid #197BBD;
   outline-offset: 0;
   color: inherit;
 }
-/*# sourceMappingURL=main.css.map */
+
+#pagination .pagination--right {
+  width: 49%;
+  margin-left: 5px;
+  text-align: right;
+}
+
+#pagination .pagination--right .pagination--link-right {
+  display: block;
+  text-decoration: underline;
+  background-color: #f4f4f4;
+  padding: 20px 5px;
+  text-align: right;
+}
+
+#pagination .pagination--right .pagination--link-right:after {
+  content: "\f061";
+  font-family: FontAwesome;
+  margin-left: 10px;
+}
+
+#pagination .pagination--right .pagination--link-right:hover {
+  text-decoration: none;
+  background-color: #E8E9F3;
+}
+
+#pagination .pagination--right .pagination--link-right:focus {
+  outline: 5px solid #197BBD;
+  outline-offset: 0;
+  color: inherit;
+}
