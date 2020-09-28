@@ -436,14 +436,14 @@ code {
 }
 @media (max-width: 992px) {
   .pagination--right {
-    width: 100%;
+    min-width: 100%;
     margin: 15px 0;
   }
 }
 
 @media (max-width: 992px) {
   .pagination--left {
-    width: 100%;
+    min-width: 100%;
     margin: 15px 0;
   }
 }
