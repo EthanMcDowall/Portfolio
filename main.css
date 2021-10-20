@@ -92,7 +92,14 @@ h2 {
   line-height: 1.5;
   margin: 25px 0;
 }
-
+h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  background: #FFDDD5;
+  height: 5px;
+  width: 90px;
+}
 h3 {
   font-size: 2rem;
   font-weight: 700;
