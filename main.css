@@ -25,6 +25,8 @@ body {
   }
 }
 
+// Navigation
+
 .navbar {
   padding: 20px;
   -webkit-box-shadow: 0 0 5px 0 #C2B8B2;
@@ -79,6 +81,8 @@ body {
   }
 }
 
+// Headings
+
 h1 {
   font-size: 3.5rem;
   font-weight: 700;
@@ -114,9 +118,11 @@ h4 {
   margin: 20px 0;
 }
 
+// Paragraphs
+
 p {
-  font-size: 1.35rem;
-  line-height: 2;
+  font-size: 1.2rem;
+  line-height: 1.8;
   font-weight: 400;
   margin: 20px 0;
 }
