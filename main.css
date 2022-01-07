@@ -134,6 +134,8 @@ p {
   }
 }
 
+// Blockquote
+
 blockquote {
   border-left: 10px solid #204B57;
   background-color: #E8E9F3;
@@ -147,6 +149,8 @@ blockquote {
     line-height: 1.8;
   }
 }
+
+// Links
 
 a {
   color: #204B57;
@@ -164,6 +168,8 @@ a:focus {
   outline: 5px solid #125E8A;
   outline-offset: 0;
 }
+
+// Images
 
 .image-holder {
   height: 350px;
@@ -209,6 +215,8 @@ figure figcaption {
   background-color: #f4f4f4;
   padding: 15px;
 }
+
+// Header
 
 .heading-section__wrapper {
   background-color: #f4f4f4;
@@ -311,6 +319,8 @@ figure figcaption {
   text-decoration: underline;
 }
 
+// Return to top
+
 #return-to-top .return-to-top {
   margin: 30px 0;
 }
@@ -334,6 +344,8 @@ figure figcaption {
   outline: 5px solid #197BBD;
   outline-offset: 0;
 }
+
+// Table
 
 table {
   margin: 20px 0;
@@ -377,11 +389,15 @@ table.colours tr .colour-section--dark-green {
   background-color: #144D4E;
 }
 
+// Code
+
 code {
   font-size: inherit;
   font-family: inherit;
   color: inherit;
 }
+
+// Pagination
 
 #pagination {
   margin: 50px 0;
@@ -396,7 +412,7 @@ code {
   display: block;
   text-decoration: underline;
   background-color: #f4f4f4;
-  padding: 20px 5px;
+  padding: 20px 5px 20px 20px;
   text-align: left;
 }
 
@@ -427,7 +443,7 @@ code {
   display: block;
   text-decoration: underline;
   background-color: #f4f4f4;
-  padding: 20px 5px;
+  padding: 20px;
   text-align: right;
 }
 
