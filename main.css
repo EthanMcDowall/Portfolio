@@ -411,6 +411,7 @@ code {
 #pagination .pagination--left .pagination--link-left {
   display: block;
   text-decoration: underline;
+  color: #204B57;
   background-color: #f4f4f4;
   padding: 20px 5px 20px 20px;
   text-align: left;
@@ -442,6 +443,7 @@ code {
 #pagination .pagination--right .pagination--link-right {
   display: block;
   text-decoration: underline;
+  color: #204B57;
   background-color: #f4f4f4;
   padding: 20px;
   text-align: right;
