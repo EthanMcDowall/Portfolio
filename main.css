@@ -100,7 +100,7 @@ h2::after {
   content: "";
   position: absolute;
   display: block;
-  background: #FFDDD5;
+  background: #204b57;
   height: 5px;
   width: 90px;
 }
