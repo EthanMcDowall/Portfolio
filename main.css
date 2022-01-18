@@ -385,8 +385,8 @@ code {
 
 // Pagination
 
-#pagination {
-  margin: 50px 0;
+.pagination {
+  margin: 60px 0;
 }
 
 #pagination .pagination--left {
