@@ -211,14 +211,14 @@ figure figcaption {
 
 .heading-section__wrapper {
   background-color: #204b57;
-  padding: 40px 0;
+  padding: 60px 0;
+  margin-bottom:60px;
 }
 
 .heading-section__wrapper h1 {
-  font-size: 3.5rem;
-  font-weight: 700;
+  font-size: 4.5rem;
+  font-weight: 900;
   line-height: 1.5;
-  margin: 30px 0;
   color: #ffffff;
 }
 
@@ -382,8 +382,6 @@ code {
   font-family: inherit;
   color: inherit;
 }
-
-// Pagination
 
 .pagination {
   margin: 60px 0;
