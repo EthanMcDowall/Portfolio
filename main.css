@@ -210,20 +210,19 @@ figure figcaption {
 .home-heading-section__wrapper {
   background-color: #204b57;
   padding: 60px 0;
-  margin-bottom:60px;
 }
 
 .home-heading-section__wrapper h1 {
   font-size: 4.5rem;
   font-weight: 900;
-  line-height: 1.5;
+  line-height: 1.2;
   color: #ffffff;
 }
 
 @media (max-width: 992px) {
   .home-heading-section__wrapper h1 {
     font-size: 36px;
-    line-height: 1.5;
+    line-height: 1.2;
   }
 }
 
