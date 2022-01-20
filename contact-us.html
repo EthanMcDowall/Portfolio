@@ -42,50 +42,59 @@
     <section id="main">
       <div class="container">
         <h2>Background</h2>
-        <p>We published a contact us form three years ago. This form was located at the top right hand corner of the header. Once a user completed this form it sent an email to our customer services email inbox who would then have to manually index that email within our document management system. This was intended as a quick fix that would be iterated over time. However, due to other projects and resources available this never happened.</p>
-        <p>This project looked at the end to end journey from a user finding the form on the website through to our customer services team being able to respond to the user.</p>
+            <p>We published a Contact Us form in 2018 and quickly became one of our most used forms with an average of 700 submissions a month.</p>
+            <p>The form could be found at the top right-hand corner of the website's header. Once a user completed the form, it would send an email to our Customer Services email inbox. They would then have to manually store that email within a document management system before being distributed to the team by management. A Customer Services advisor would respond to them one by one. This process was intended as a quick fix that would be iterated over time. However, due to other projects and resources available, this never happened.</p>
+            <p>This project looked at the end-to-end journey from a user finding the form on the website through to our Customer Services team being able to respond to the user.</p>
+            <p>This project aimed to create a frontend pattern that can be accessed on any page on the website which will route a user to a relevant web page or to a contact us form to enable a user to contact the relevant department.</p>
         <figure>
           <img src="Contact Us - Old.png" alt="">
-          <figcaption>Screenshot of the opening page for the old contact us form.</figcaption>
+          <figcaption>Screenshot of the opening page for the old Contact Us form.</figcaption>
         </figure>
         <h2>Team make up</h2>
-        <p>The team was made up of an interaction designer, service designer and a developer. The service designer also took on content design and user research roles.
+            <p>The project team had an Interaction Designer, a Junior Designer, and two Developers.</p>
         <h2>My Role</h2>
-        <p>I was the interaction designer and developer for this project.</p>
+          <p>I had a few roles in the project. I was the Interaction Designer and one of the Developers. </p>
+          <p>I also led the delivery of this project. I ran this project using Agile methods by creating a backlog, splitting work into two weekly sprints, and allocating work to members of the project team. At the end of each sprint, I hosted a retro to understand any blockers and achievements so that we could improve for the following sprint.</p>
+          <p>I mentored and coached the Junior Designer throughout this project. They expressed that they wanted to learn more about other design disciplines as they were not sure which discipline suited them the most. I suggested that they worked as a Content Designer in this project so that they can experience how they work with an Interaction Designer and Developers. This gave them the chance to learn content best practices in a real-world and practical environment. I set up weekly one-to-ones with them to check in on their progress, create goals, help them tackle any challenges whilst making sure they weren't overloaded by their workload.</p>
         <h3>Interaction designer</h3>
-        <p>I was responsible for creating initial concepts, making low fidelity wireframes and prototypes through to high fidelity prototypes, iterating them based on research and feedback.</p>
+          <p>I was responsible for mapping out user journeys, creating initial concepts, making low fidelity wireframes and prototypes through to high fidelity prototypes, iterating them based on research and feedback.</p>
         <h3>Developer</h3>
-        <p>Once the project moved into a development phase, I became the main developer building the prototypes from a website point of view. There was another developer who focused on the form and backend integrations. Another colleague tackled development of the form for users to complete through our forms package. I used HTML, SASS and Javascript to create the section.</p>
+          <p>After the design phase, I became the Developer building the prototypes for the website. I used HTML, SASS, and Javascript to create the website frontend.</p>
+          <p>There was a second developer that focused on the form and backend integrations.</p>
         <h2>The problem</h2>
+        <h3>The form</h3>
+          <p>The form itself was a major problem. Our Customer Services team had daily phone calls from the public who were struggling to contact a department digitally or by phone because of the way the form was built.</p>
+          <p>The first page had a dropdown list for a user to select what department they needed. A series of buttons would then appear which directed users back to the website, despite their being explanatory text and "Cancel" and "Next" buttons underneath. This created a loop between the website and form which frustrated users - ultimately blocking them from contacting us.</p>
         <h3>Admin time</h3>
-        <p>A lot of the Customer Services team management teams time was taken up by the current process. Once the form had emailed the email inbox, they manually indexed that email into our document management system - this took anywhere from 30 minutes to an hour per day depending on the day of the week. They would then allocate those emails to the customer services team to deal with. This would usually mean that a user submitting the form would have to wait a minimum of two days for a response due to the level of manual tasks involved.</p>
+          <p>A lot of the Customer Services team management team's time was taken up by the current process. It took anywhere from 30 minutes to an hour per day to store and distribute a user's email to an advisor.</p>
+          <p>This would usually mean that a user submitting the form would have to wait an average of two working days for a response.</p>
         <h3>Transaction requests</h3>
-        <p>On top of the time taken just to get to the customer services team, it was clear from user research that they were getting a lot of transactional requests for reporting missed bins or reporting fly tipping rather than users who need to contact us about their benefits claim or council tax bill for example. Just over 50% of the contact us forms completed were for transactional requests.</p>
+            <p>We also found that it was being used for transactional requests such as reporting missed bins or reporting fly-tipping despite there being online forms to do this. Just over 50% of the Contact Us forms completed were for transactional requests.</p>
         <h3>Website content</h3>
-        <p>There was no content on the website advising a user how to contact us and our departments across the website. There was a page set up, however, it redirected straight into a form for a user to complete. That form asked them what service they wanted to contact from a drop down list. Once selected, a series of buttons appeared in an attempt to redirect a user to another form or web page. The next page gave the user phone numbers, opening times and a small amount of content about that department - there were no calls to actions other than to proceed to the next page. The next page asked them what they wanted to contact us about before finally giving us their contact details.</p>
+            <p>There was no content on the website advising a user how to contact us. There was a link to the form in the header, however,  users often missed this on content pages.</p>
         <h2>My solutions</h2>
-        <p>I worked with the team to create a concept that would tackle these issues. I made a high level process map to outline how the front end of the process would work and look like.</p>
+            <p>I worked with the team to create a concept that would tackle these issues. I made a high level process map to outline how the front end of the process would work and look like.</p>
         <figure>
             <img src="Contact us process map.png" alt="">
             <figcaption>Mobile prototype for contact us page.</figcaption>
         </figure>  
         <h3>Admin time</h3>
-        <p>I wanted to avoid a user telling us what department they’re trying to contact within the form when they’ve already selected a department from the web page. I found a way to pass a value from a URL from the new webpage into the new form which populated a hidden field in the background. The other developer in the team used this value and integrated the form submission into the document management system. This approach removed the admin time from the customer services management team.</p>
+            <p>I wanted to avoid a user telling us what department they’re trying to contact within the form when they’ve already selected a department from the web page. I found a way to pass a value from a URL from the new webpage into the new form which populated a hidden field in the background. The other developer in the team used this value and integrated the form submission into the document management system. This approach removed the admin time from the customer services management team.</p>
         <h3>Transaction requests and website content</h3>
-        <p>Another issue to tackle in this project involved reducing the amount of transactional requests. I prototyped a concept that would route users to parts of the site to complete a transaction - reporting a missed bin for example - only leaving an option to contact us if there was no transaction request. I came with a design where users would select a department from a menu. A second menu of items relating to the department would appear next to it (on desktop). Once a second menu item was selected, content would appear that would either give them some information, direct them to a transaction or direct them through the contact form. This approach also added content to help inform the user on what they needed to do.</p>
+            <p>Another issue to tackle in this project involved reducing the amount of transactional requests. I prototyped a concept that would route users to parts of the site to complete a transaction - reporting a missed bin for example - only leaving an option to contact us if there was no transaction request. I came with a design where users would select a department from a menu. A second menu of items relating to the department would appear next to it (on desktop). Once a second menu item was selected, content would appear that would either give them some information, direct them to a transaction or direct them through the contact form. This approach also added content to help inform the user on what they needed to do.</p>
         <figure>
             <img src="Contact us mobile view.png" alt="">
             <figcaption>Mobile prototype for contact us page.</figcaption>
         </figure>
-        <p>The three column design on desktop was not mobile friendly as it made the text far too small to read or understand. I came up with the design below where the three headings stack on top of each other and each column would replace the column before it until the content was revealed. </p>
+            <p>The three column design on desktop was not mobile friendly as it made the text far too small to read or understand. I came up with the design below where the three headings stack on top of each other and each column would replace the column before it until the content was revealed. </p>
         <figure>
             <img src="Contact us desktop.png" alt="">
             <figcaption>Desktop prototype for contact us page.</figcaption>
         </figure>
-        <p>I also changed how a user would get to the process. Before, it lived in the top right hand corner of the header as well as having a redirect page that led to the contact form within the customer services section. I removed the option from the header and left the option in the footer. I also replaced the redirect page in the customer services section. I moved the customer services section (also known as find and contact us) from below the fold to a higher position closer to the fold as I still wanted users to be able to contact us.</p>
-        <p>This project is in live beta and can be found <a href="https://www.maidstone.gov.uk/home/primary-services/find-and-contact-us/primary-areas/contact-us">here</a>.</p>
+            <p>I also changed how a user would get to the process. Before, it lived in the top right hand corner of the header as well as having a redirect page that led to the contact form within the customer services section. I removed the option from the header and left the option in the footer. I also replaced the redirect page in the customer services section. I moved the customer services section (also known as find and contact us) from below the fold to a higher position closer to the fold as I still wanted users to be able to contact us.</p>
+            <p>This project is in live beta and can be found <a href="https://www.maidstone.gov.uk/home/primary-services/find-and-contact-us/primary-areas/contact-us">here</a>.</p>
         <h2>What happens next</h2>
-        <p>The next phase of this project will look at whether there are any usability issues that weren’t found during testing. I’ll use Hotjar and form submission data to inform any design decisions. </p>
+            <p>The next phase of this project will look at whether there are any usability issues that weren’t found during testing. I’ll use Hotjar and form submission data to inform any design decisions. </p>
       </div>
     </section>
     <section id="pagination">
